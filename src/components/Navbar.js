@@ -19,9 +19,6 @@ export default function Navbar(prop) {
             <li className="nav-item">
               <Link className={`nav-link ${location.pathname === "/" ? "active" : ""}`} to="/">Tool<span className="sr-only"></span></Link>
             </li>
-            <li className="nav-item">
-              <Link className={`nav-link ${location.pathname === "/About" ? "active" : ""}`} to="/About">About</Link>
-            </li>
           </ul>
           <div className="d-flex align-items-center">
             <div className="form-check form-switch">
