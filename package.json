@@ -7,8 +7,12 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^13.5.0",
+    "file-saver": "^2.0.5",
+    "html-docx-js": "^0.3.1",
+    "html2pdf.js": "^0.12.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
     "react-router-dom": "^7.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
@@ -18,7 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "both": "concurrently \"npm start\" \"nodemon backend/index.js\""  
+    "both": "concurrently \"npm start\" \"nodemon backend/index.js\""
   },
   "eslintConfig": {
     "extends": [
